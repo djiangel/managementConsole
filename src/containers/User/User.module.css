@@ -1,0 +1,100 @@
+.container {
+  width: 95%;
+  max-width: 80%;
+  padding: 4.2rem 3.2rem;
+}
+.userHeading {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.userInfoText {
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+  color: var(--marine-faded);
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70px;
+  padding: 5px 8px;
+}
+
+.infoContent {
+  text-align: right;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  font-size: 14px;
+}
+
+.adminFlag {
+  background-color: var(--aqua-marine);
+  height: 16px;
+  font-size: 10px;
+  font-family: OpenSans, sans-serif;
+  font-weight: bold;
+  padding: 0 3px;
+  border-radius: 2px;
+}
+
+.countInfoContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0;
+  margin-top: 25px;
+  background-color: rgb(244, 246, 249);
+}
+
+.countContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countText {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  color: var(--aqua-marine);
+  font-size: 24px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.userTable {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.userHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.userTable table,
+.userTable th,
+.userTable td {
+  border-collapse: collapse;
+  border: 1px solid rgb(239, 239, 239);
+}
+
+.userTable table {
+  width: 100%;
+}
+
+.userTable td {
+  width: 50%;
+}
+
+.userTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}

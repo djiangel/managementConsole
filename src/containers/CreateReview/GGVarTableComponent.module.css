@@ -1,0 +1,28 @@
+.container {
+  margin: 20px 0;
+}
+
+.container tr {
+  border-collapse: collapse;
+  border: var(--pale-grey) 1px solid;
+}
+
+.container td {
+  padding: 8px 20px;
+  line-height: 40px;
+}
+
+.container th {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+  padding: 8px 20px;
+  line-height: 40px;
+  background-color: var(--pale-grey);
+}
+
+.flavorAttribute {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 14px;
+  color: var(--marine);
+}

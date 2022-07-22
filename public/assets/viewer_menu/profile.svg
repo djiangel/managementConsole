@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="16px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon profile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Report-Copy" transform="translate(-830.000000, -102.000000)" stroke="#022950">
+            <g id="Header">
+                <g id="Tooltip" transform="translate(813.000000, 81.000000)">
+                    <g id="Profile" transform="translate(18.000000, 22.000000)">
+                        <g id="icon-profile">
+                            <path d="M10,3.5 C10,5.43327273 8.43327273,7 6.5,7 C4.56672727,7 3,5.43327273 3,3.5 C3,1.56672727 4.56672727,0 6.5,0 C8.43327273,0 10,1.56672727 10,3.5 Z" id="Stroke-1"></path>
+                            <path d="M6.5,9 C4.43485714,9 2.55604762,9.7525 1.35571429,10.375 C0.524952381,10.805625 0,11.6625 0,12.605 L0,13.0625 C0,13.58 0.416,14 0.928571429,14 L12.0714286,14 C12.584,14 13,13.58 13,13.0625 L13,12.605 C13,11.6625 12.4750476,10.805625 11.6442857,10.375 C10.4439524,9.7525 8.56514286,9 6.5,9 Z" id="Stroke-3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

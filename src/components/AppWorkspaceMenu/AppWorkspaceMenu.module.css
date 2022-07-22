@@ -1,0 +1,16 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.selectWorkspaceText {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  color: var(--marine);
+}
+
+.searchBar {
+  margin: auto;
+}

@@ -1,0 +1,55 @@
+.removeButton {
+	background: none;
+	outline: none;
+	box-shadow: none;
+	border: none;
+}
+
+.removeButton:hover {
+	cursor: pointer;
+}
+
+.removeButton path {
+	fill: #282f3b;
+}
+
+.addUserForm {
+	display: flex;
+	flex-direction: row;
+	min-width: 500px;
+	justify-content: center;
+	align-items: center;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.addUserForm button {
+	height: 46px;
+}
+
+.userListWrapper {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.userHeading {
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.tableHeader {
+	background-color: #282f3b;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 10px 10px;
+	text-align: center;
+}
+.tableBody {
+	color: #616161;
+	padding: 5px;
+	font-size: 12px;
+	text-align: center;
+}

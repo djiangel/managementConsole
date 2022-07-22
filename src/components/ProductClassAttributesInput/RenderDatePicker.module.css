@@ -1,0 +1,18 @@
+.horizontal {
+  display: flex;
+  flex-flow: row;
+}
+
+.textFieldContainer {
+  height: 32px;
+  border-bottom-style: solid;
+  border-bottom-color: #6c757d;
+  border-bottom-width: 1px;
+  flex: 1;
+}
+
+.calendarIcon {
+  height: 32px;
+  width: 32px;
+  color: #212529;
+}

@@ -1,0 +1,54 @@
+.container {
+  z-index: 2;
+  position: absolute;
+  max-height: 385px;
+  border: 2px solid var(--marine);
+  margin-left: -3.2rem;
+}
+
+.tableContainer {
+  max-height: 320px;
+  overflow: auto;
+}
+
+.tableContainer th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.tableHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+}
+
+.tableRow {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  word-wrap: break-word;
+}
+
+.image {
+  width: 64px;
+  height: 64px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  border: 1px solid var(--marine);
+}
+
+.link {
+  color: #007bff !important;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #0056b3 !important;
+}

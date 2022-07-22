@@ -1,0 +1,60 @@
+.container {
+  z-index: 2;
+  position: absolute;
+  max-height: 385px;
+  border: 2px solid var(--marine);
+  margin-left: -3.2rem;
+}
+
+.tableContainer {
+  max-height: 320px;
+  overflow: auto;
+}
+
+.tableContainer th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.icon {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+}
+
+.iconText {
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+  padding-left: 10px;
+}
+
+.tableHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+}
+
+.tableRow {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  word-wrap: break-word;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.productName {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  color: var(--marine);
+}

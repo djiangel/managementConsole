@@ -1,0 +1,640 @@
+[
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "wet",
+			"intensityScale": ""
+		}
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "roasted",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Toast", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Bread", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Bread Crumbs", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Bread Crust", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pumpernickel", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Caramelized Vegetables", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Malt", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Malted Barley", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Beer Grain", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Roasted Wheat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pretzels", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Roasting Coffee", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Granola", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Muesli", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Rolled Oats", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Oatmeal", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Brown Rice", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Rice Hulls", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Caramelization", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Rye", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Roast Nuts", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "earthy",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Cellar", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mushroom", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mulch", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mold", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dust", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Stone", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dirt", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Wet Earth", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Forest Floor", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Damp Soil", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Potting Soil", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Peat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Smoked Peat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Hummus", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Morels", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Clay", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mud", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Shu Puer", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pond", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Wheat Bran", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Potato", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tubers", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cassava", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Taro", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Beets", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "astringent",
+			"intensityScale": ""
+		}
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "marine",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Shellfish", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Winkles", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mussels", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Oysters", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Snails", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Clams", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Crab", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Florida Lobster", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Maine Lobster", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Shrimp", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Craw Dads", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Langostino", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Salmon", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tuna", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sushi", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Herring", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Eel", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Fish Skin", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Iodine", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Seaweed", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Kelp", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Kombu", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "White Fish", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Squid", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Octopus", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cuttlefish", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Fish oil", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lox", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Herring", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mackarel", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "mineral",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Salt", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Calcium", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Iron", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Carbon", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sulfur", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sodium", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Iodine", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Copper", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Nitrates", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Zinc", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Potassium", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Kosher Salt", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sea Salt", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Fluoride", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Magnesium", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Phosphorus", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Metallic", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Ammonia", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Chlorine", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "retronasal",
+			"intensityScale": ""
+		}
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "gamey",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Leather", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tannery", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Musk", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Wool", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Manure", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Barnyard", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Stable", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Truffle", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mushroom", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Puer", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Goat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Venison", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Game Meat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Koji", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Shu Puer", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sheng Puer", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sulfur", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Kraut", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Musty", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Ammonia", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Egg", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "woody",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Potpourri", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sandalwood", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Balsa Wood", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pine Wood", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cedar", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mesquite", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Oak", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "French Oak", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "American Oak", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Damp Leaves", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Moss", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Fern", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tea Stems", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Samovar Tea", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Twig Tea", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Wood Chips", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Apple Wood", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Maple Wood", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Hickory", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Resinous", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Bourbon Chips", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "bitter",
+			"intensityScale": ""
+		}
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "meaty",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Game Meat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Poultry", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cured Meats", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sausage", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Blood Sausage", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Beef", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pork", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Goat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Buffalo", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Venison", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dried Meat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Prosciutto", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Liver", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Heart", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Gizzard", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Skin", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "BBQ", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Bacon", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Moose", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lamb", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sheep", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mutton", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Kangaroo", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Alligator", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Wild Boar", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Chicken", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Turkey", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Duck", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Goose", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Egg", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "smoked",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Smoked Meat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Juniper", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mesquite", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Charcoal", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Maple Wood", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Hickory", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Chicory", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Carbon", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "BBQ", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Camp Fire", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Yakitori", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Shao Kao", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Burnt", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tobacco", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Incense", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Hardwood", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Resinous", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Robata", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Smoked Peat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Charred", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Applewood", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Acacia", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cherry Wood", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "dry",
+			"intensityScale": ""
+		}
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "rich",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Raw Cocoa", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Milk Chocolate", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dark Chocolate", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Caramel", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Caramelized Onions", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Figs", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dates", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Animal Brains", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cheesecake", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Liver", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Anchovies", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Oil", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Hot Chocolate", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Miso", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Beef Stock", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Chicken Stock", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mushroom Stock", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Rum", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Bourbon", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Chicory", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cafe au lait", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Koji", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Olive", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tomato", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Soy Sauce", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Clove", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Anise", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Coconut", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Wine", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Toffee", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sesame Oil", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Coconut Oil", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Walnut Oil", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Baby Oil", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Egg", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "dairy",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Milk", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cream", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Yogurt", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Buttermilk", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sour Cream", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cheese", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Soft Cheese", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cream Cheese", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Ghee", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Clarified Butter", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dulce de Leche", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Flan", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Goat Milk", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Goat Cheese", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sheep Milk", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sheep Cheese", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Butter", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Creamy", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lactic Acid", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Soy Milk", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cottage Cheese", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Egg", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "mouthfeel",
+			"intensityScale": ""
+		}
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "nutsAndSeeds",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Almonds", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pistachios", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pine Nuts", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sesame Seeds", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Hazelnuts", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Walnuts", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cashews", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Peanuts", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Ginkgo Nut", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sunflower Seeds", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Poppy Seeds", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Chestnuts", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pecans", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Brazil Nuts", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Macadamia Nuts", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Yeast", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Roast Nuts", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Kola Nut", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Acorn", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Candlenut", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Water Chestnut", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Palm Nuts", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Betel Nut", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Black Walnut", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Black Sesame", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "White Sesame", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Jack Nut", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Soy Bean", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Flax", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "herbaceous",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Watercress", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pine", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pine Tree", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lemongrass", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Gangala", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dill", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Celery", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cilantro", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Fenugreek", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Fennel", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cabbage", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Oregano", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Basil", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Bay Leaf", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sage", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mustard Green", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Kale", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mown Grass", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Hay", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sencha", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Matcha", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Green Tea", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tobacco", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Hops", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mint", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Grassy", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Squash", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Green Pepper", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Banana Flower", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Eucalyptus", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Elephant Garlic", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Onion", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Garlic", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cucumber", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Thyme", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Artichoke", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Radicchio", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Asparagus", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "White Asparagus", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Leek", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Wheat Grass", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Galangal", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Chrysanthemum", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Vegetable", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Green Pepper", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "coldFinish",
+			"intensityScale": ""
+		}
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "floral",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Roses", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Orange Blossom", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Peony", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lily", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lilac", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Poppies", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tulips", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Jasmine", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Daisy", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Daffodil", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lavender", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cherry Blossom", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Elder Flower", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Juniper", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lemongrass", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Honeysuckle", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Magnolia", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Rose Hips", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Hibiscus", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Frangipani", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Bergamot", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Hops", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Anise", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Oolong Tea", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Chrysanthemum", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "spices",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Ginger", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Clove", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Allspice", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Nutmeg", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Ginseng", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cardamom", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cinnamon", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Anise", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Vanilla", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Coriander", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Peppercorns", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Red Pepper Flakes", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mulling Spice", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Ginger Bread", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Turmeric", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mustard Seeds", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Masala", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Curry", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tagine", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dianhong", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Garlic", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Caraway", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Camphoric", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "sourAndAcidity",
+			"intensityScale": ""
+		}
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "fruits",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Citrus", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lemon", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Orange", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tangerine", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Grapefruit", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lime", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pomelo", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Clementine", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Kumquat", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tropical Fruit", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mango", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Passion Fruit", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Guava", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lychee", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Kiwi", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Persimmon", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pomegranate", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pineapple", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Mamey", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Papaya", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Berries", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Huckleberries", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Strawberry", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Raspberry", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Gooseberry", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Elder Berry", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Nectarine", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pear", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Apple", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Plum", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cherry", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Grape", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Peach", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Apricot", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Prune", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Fig", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dates", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Black Currant", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tagine", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Raisin", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cranberry", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Blueberry", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Red Currant", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Coconut", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Banana", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tamarind", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Star Fruit", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "White Grape", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Green Grape", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Red Grape", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Wine Grape", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Concord Grape", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Green Apple", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Red Apple", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Watermelon", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Honeydew", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cantaloupe", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Citric Acid", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tartaric Acid", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Jam", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Malic Acid", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Durian", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Blackberry", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pectin", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Melon", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Fermented", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dragon Fruit", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Jack Fruit", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Soursop", "sentiment": "", "custom": false }
+		]
+	},
+	{
+		"flavorAttributeIntensities": {
+			"ggvar": "sugar",
+			"intensityScale": ""
+		},
+		"referenceFlavors": [
+			{ "referenceFlavor": "Honey", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "White Honey", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Molasses", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cane Sugar", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Brown Sugar", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Sugar Beets", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Moscavado Sugar", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Confectioner's Sugar", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Agave", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Maple Syrup", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Stewed Fruit", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Dried Fruit", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tangiri", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Vanilla", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Marshmallow", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cola", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Tamarind", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Lemonade", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Jam", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Toffee", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Caramel", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Cotton Candy", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Bubble Gum", "sentiment": "", "custom": false },
+			{ "referenceFlavor": "Pectin", "sentiment": "", "custom": false }
+		]
+	}
+]

@@ -1,0 +1,114 @@
+.container {
+  width: 76%;
+  padding: 2rem 3.2rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.filterContainer {
+  min-width: 20%;
+  padding: 1rem;
+  margin-right: 1rem;
+  position: relative;
+  margin-bottom: 1rem;
+  height: max-content;
+}
+
+.pageContainer {
+  display: flex;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filterHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}
+
+.searchContainer {
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+
+.searchBox {
+  width: 100%;
+}
+
+.headerTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.productHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.productTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}
+
+.tableRow {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  word-wrap: break-word;
+}
+
+.tableHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  min-width: 60%;
+  max-width: 80%;
+  max-height: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.sectionContainer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5em;
+}
+
+.buttonContainer button {
+  margin-left: 1em;
+}
+
+.resultHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0em;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Icons/Folder_add</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Products" transform="translate(-96.000000, -332.000000)" stroke="#022950">
+            <g id="Folders" transform="translate(82.000000, 225.000000)">
+                <g id="Icons/Folder_add" transform="translate(15.000000, 108.000000)">
+                    <path d="M16.2,3.52941176 L16.2,1.76470588 L4.5,1.76470588 L4.5,0 L0,0 L0,13.6764706 C0,14.4070588 0.603,15 1.35,15 C2.0952,15 2.7,14.4070588 2.7,13.6764706 L2.7,3.52941176 L18,3.52941176 L18,7.5" id="Stroke-1" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <line x1="2" y1="15" x2="8" y2="15" id="Stroke-3" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <path d="M21,15.5 C21,18.5378333 18.5369167,21 15.5,21 C12.4621667,21 10,18.5378333 10,15.5 C10,12.4621667 12.4621667,10 15.5,10 C18.5369167,10 21,12.4621667 21,15.5 Z" id="Stroke-5"></path>
+                    <line x1="13" y1="15.5" x2="18" y2="15.5" id="Stroke-7" stroke-linecap="round"></line>
+                    <line x1="15.5" y1="18" x2="15.5" y2="13" id="Stroke-9" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

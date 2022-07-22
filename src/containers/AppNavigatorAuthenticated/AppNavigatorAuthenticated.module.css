@@ -1,0 +1,22 @@
+.container {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contentsRow {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+}
+
+.verticalNavigationMenu {
+  width: 250px;
+  padding: 20px 20px 20px 0;
+}
+
+.contents {
+  flex: 1;
+  margin-top: 10px;
+}

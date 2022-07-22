@@ -1,0 +1,70 @@
+.container {
+  width: 76%;
+  padding: 2rem 3.2rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.headerTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.productHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.productTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}
+
+.buttonContainer {
+  margin-bottom: 15px;
+}
+
+.sectionContainer {
+  padding-bottom: 10px;
+  width: 30vw;
+}
+
+.inputSelect {
+  padding-top: 18px;
+}
+
+.list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.tableRow {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  word-wrap: break-word;
+}
+
+.tableHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+}
+
+.sectionHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  color: var(--marine);
+  font-size: 14px;
+  padding-top: 30px;
+}

@@ -1,0 +1,129 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.headerTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerTextContainerTop {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.panelHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.panelHeaderSize {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 15px;
+  color: var(--aqua-marine);
+  margin-top: 10px;
+}
+
+.panelTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+  /* padding-left: 20px; */
+}
+
+.refreshMsg {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: grey;
+  text-align: right;
+}
+
+.tableRow {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  word-wrap: break-word;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tableHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 10px;
+  color: var(--marine);
+}
+
+.tableHeader > th[data-row-selection] {
+  width: 50px !important;
+}
+
+.redColumn {
+  background-color: var(--coral-pink);
+  color: white;
+}
+
+.greenColumn {
+  background-color: var(--aqua-marine);
+  color: white;
+}
+
+.yellowColumn {
+  background: var(--saffron);
+}
+
+.flagStyle {
+  font-size: 18px;
+  font-weight: 1000;
+}
+
+.downloadButton {
+  text-align: right;
+}
+
+.table thead th {
+  transform: rotate(270deg);
+  white-space: nowrap;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.legendContainer {
+  width: 25%;
+  font-size: small;
+}
+
+.legendItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.legendGreenBlock {
+  background: var(--aqua-marine);
+  width: 10px;
+  height: 10px;
+}
+
+.legendYellowBlock {
+  background: var(--saffron);
+  width: 10px;
+  height: 10px;
+}
+
+.legendRedBlock {
+  background: var(--coral-pink);
+  width: 10px;
+  height: 10px;
+}

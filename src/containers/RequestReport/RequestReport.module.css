@@ -1,0 +1,270 @@
+.container {
+  width: 98%;
+  max-width: 96%;
+  padding: 4.2rem 3.2rem;
+  position: relative;
+  margin-bottom: 3.2rem;
+}
+
+.productHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.productFieldsTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}
+
+.errorTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 14px;
+  color: #e46e6e;
+}
+
+.errorMessage {
+  font-family: OpenSans-Bold, sans-serif;
+  font-size: 18px;
+  color: #022950;
+  padding-top: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5em;
+}
+
+.buttonContainer button {
+  margin-left: 15px;
+}
+
+.productClassAttributes {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  width: 15rem;
+}
+
+.hideTrue {
+  display: none;
+}
+
+.hideFalse {
+}
+
+.sectionHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  color: var(--marine);
+}
+
+.sectionContainer,
+.productClassAttributes {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.textField {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.searchBar {
+  width: 50%;
+}
+
+.disclaimer {
+  color: var(--coral-pink);
+  font-size: 11px;
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.competitiveSetTable {
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+.competitiveSetTable table,
+.competitiveSetTable th,
+.competitiveSetTable td {
+  border-collapse: collapse;
+  border: 1px solid rgb(239, 239, 239);
+}
+
+.competitiveSetTable table,
+.competitiveSetTable tr {
+  border: 0px;
+  width: 100%;
+}
+
+.competitiveSetTable td {
+  width: 50%;
+  padding: 1em;
+  border: 0px;
+}
+
+.competitiveProductTable {
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+.competitiveProductTable table,
+.competitiveProductTable th,
+.competitiveProductTable td {
+  border-collapse: collapse;
+}
+
+.competitiveProductTable table,
+.competitiveProductTable tr {
+  border: 0px;
+  width: 100%;
+}
+
+.competitiveProductTable td {
+  border: 0px;
+}
+
+.colNameWide {
+  border: 0px;
+  width: 90%;
+}
+
+.colName {
+  border: 0px;
+  width: 40%;
+  padding: 0px;
+}
+
+.colRename {
+  border: 0px;
+  width: 40%;
+  padding: 0px;
+}
+
+.colCheck {
+  border: 0px;
+  width: 10%;
+  padding: 0px;
+}
+
+.fieldsLabel {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 16px;
+  color: var(--marine);
+}
+
+.fieldColumn {
+  border-right: none !important;
+}
+
+.valueColumn {
+  border-left: none !important;
+}
+
+.productsPlaceholder {
+  color: rgb(172, 172, 172);
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  min-width: 30%;
+  max-width: 60%;
+  max-height: 60%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.folderModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.folderProductTitleRow {
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  font-size: 14px;
+}
+
+.limitOne {
+  color: var(--coral-pink);
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+}
+
+.successHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}
+
+.successSubtitle {
+  font-family: OpenSans, sans-serif;
+  font-size: 14px;
+  color: var(--marine);
+}
+
+.raceEthnicityCountryHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  color: var(--marine);
+  width: 100%;
+}
+
+.searchBarContainer {
+  margin-bottom: 1em;
+}
+
+.sliderContainer {
+  display: flex;
+}
+
+.tableRow {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  word-wrap: break-word;
+}
+
+.tableHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+}
+
+.resultHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0em;
+  align-items: center;
+}
+
+.adminOnly {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--coral-pink);
+  text-decoration: underline;
+}
+
+.statisticsInfo {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+}

@@ -1,0 +1,23 @@
+.searchBox {
+  border-radius: 16px;
+  background-color: rgb(244, 244, 244);
+  outline: none;
+  border: none;
+  height: 37px;
+  width: 523px;
+
+  padding: 1rem 1rem 1rem 2.5rem;
+  margin: 1rem 1rem 1rem -1rem;
+}
+
+.searchIcon {
+  position: relative;
+  top: 1.8rem;
+  left: 0.7rem;
+  z-index: 2;
+  color: rgb(156,156,156);
+}
+
+.searchContainer {
+  display: flex;
+}

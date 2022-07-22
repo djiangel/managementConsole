@@ -1,0 +1,56 @@
+.editBtn {
+  margin: 0;
+  max-width: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #e4ede5;
+  padding: 30px 16px 16px;
+}
+
+.container h1 {
+  color: #42a5f5;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container h2 {
+  color: #607d8b;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.container h3 {
+  color: #78909c;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.form {
+  margin-top: 1rem;
+}
+
+.form table {
+  margin-top: 1rem;
+}
+
+.addAttributeBtn {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 125px;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.editBtnContainer {
+  display: flex;
+}
+
+.deleteBtn {
+  margin: 0 0 0 1rem;
+  max-width: 100px;
+}

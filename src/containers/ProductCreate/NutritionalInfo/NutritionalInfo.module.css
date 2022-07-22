@@ -1,0 +1,50 @@
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 5px 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.customFieldContainer {
+  margin: 0 5px;
+  flex: 1;
+}
+
+.defaultInfoContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.defaultInfoLabel {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  color: var(--marine);
+  font-size: 14px;
+}
+
+.fieldGroupContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.additionalInfoContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.additionalFieldContainer {
+  align-items: center;
+  width: 100%;
+}

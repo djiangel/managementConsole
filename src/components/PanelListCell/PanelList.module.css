@@ -1,0 +1,111 @@
+.container {
+  border: var(--pale-grey) solid 1px;
+}
+
+.input {
+  box-shadow: none;
+  border-radius: 2px;
+  line-height: 2.4rem;
+  text-transform: initial;
+  letter-spacing: initial;
+  position: relative;
+  z-index: 20;
+  display: block;
+  flex: 1 1;
+  width: 100%;
+  min-width: 0;
+  min-height: 3.6rem;
+  margin: 0;
+  padding: 0.5rem 0;
+  background: none;
+  border: 1px solid;
+
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-transform: initial;
+  letter-spacing: initial;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 1.2rem;
+  color: #616161;
+  cursor: text;
+}
+
+.input:active,
+.input:focus {
+  border-color: #3f4eae;
+}
+
+.alert {
+  padding: 1rem;
+}
+
+.editText {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 14px;
+  color: var(--marine);
+  padding: 0 20px;
+}
+
+.sectionDivider {
+  height: 32px;
+  background-image: linear-gradient(to right, #022950, #465dba);
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.sectionTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: white;
+  padding-left: 20px;
+}
+
+.sectionContentContainer {
+  padding: 20px;
+}
+
+.sectionText {
+  color: var(--marine);
+  font-family: OpenSans, sans-serif;
+  font-size: 11px;
+}
+
+.panelInfoContainer {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+}
+
+.panelInfo {
+  border-right: solid 0.005rem rgb(224, 227, 233);
+  border-left: solid 0.005rem rgb(224, 227, 233);
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px 20px;
+}
+
+.panelInfoTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 14px;
+  color: var(--marine);
+}
+
+.panelInfoText {
+  font-family: OpenSans, sans-serif;
+  font-size: 14px;
+  color: var(--marine);
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 30px;
+  border-top: var(--pale-grey) solid 1px;
+}

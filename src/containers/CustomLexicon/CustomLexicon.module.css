@@ -1,0 +1,72 @@
+.container {
+  margin: 20px 0;
+}
+
+.container tr {
+  border-collapse: collapse;
+  border: var(--pale-grey) 1px solid;
+}
+
+.container td {
+  padding: 8px 20px;
+  line-height: 40px;
+}
+
+.container th {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+  padding: 8px 20px;
+  line-height: 40px;
+  background-color: var(--pale-grey);
+}
+
+.fieldContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.errorContainer {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: red;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.requiredErrorStar {
+  color: red;
+  font-weight: bold;
+  padding-left: 4px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.headerTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.reviewTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}

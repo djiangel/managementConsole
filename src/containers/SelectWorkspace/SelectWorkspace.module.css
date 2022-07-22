@@ -1,0 +1,8 @@
+.header {
+  font-family: AlphaHeadlinePro-Bold;
+  font-size: 20px;
+  color: var(--marine);
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

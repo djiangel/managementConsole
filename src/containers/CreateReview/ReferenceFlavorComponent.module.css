@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.optionContainer {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.referenceFlavorText {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  font-weight: bold;
+  color: var(--marine);
+}
+
+.sentimentLabel {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.token {
+  background-color: var(--aqua-marine);
+  color: var(--marine);
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+}

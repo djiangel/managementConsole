@@ -1,0 +1,14 @@
+.username {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.table {
+  margin-bottom: 3rem;
+}
+
+.row:nth-child(odd) {
+  background-color: #fff;
+}

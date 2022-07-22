@@ -1,0 +1,39 @@
+.input {
+  border-radius: 3px;
+  color: #212121;
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 34px;
+  outline: none;
+  vertical-align: middle;
+  flex: 1;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.otherField {
+  margin-bottom: 0 !important;
+  flex: 1;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  min-width: 30%;
+  max-width: 60%;
+  max-height: 60%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}

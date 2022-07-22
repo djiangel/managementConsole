@@ -1,0 +1,139 @@
+.removeButton {
+  background: none;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.removeButton:hover {
+  cursor: pointer;
+}
+
+.removeButton path {
+  fill: #282f3b;
+}
+
+.addUserForm {
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.addUserForm button {
+  height: 46px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.completionText {
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.userHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.userTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}
+
+.tableHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+}
+
+.tableRow {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  word-wrap: break-word;
+}
+
+.modal {
+  position: absolute;
+  width: 600px;
+  background: white;
+  border: 1px solid #ccc;
+  transition: 1.1s ease-out;
+  filter: blur(0);
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+  justify-content: center;
+  align-items: center;
+}
+
+.fade {
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  max-width: 96%;
+  padding: 4.2rem 3.2rem;
+  position: relative;
+}
+
+.topBottomMargin {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalText {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.exclamationImage {
+  margin-top: 10px;
+  width: 57px;
+  height: 57px;
+}
+
+.horizontalLayout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.fixedDivStyle {
+  height: 25px;
+  overflow: hidden;
+  word-wrap: break-word;
+  vertical-align: middle;
+  line-height: 23px;
+}

@@ -1,0 +1,51 @@
+.deviceList {
+  width: 95%;
+  max-width: 80%;
+  padding: 4.2rem 3.2rem;
+}
+
+.paperContainer {
+  padding: 1.2rem 3.2rem;
+}
+
+.deviceIdColumn {
+  width: 100px;
+}
+
+.tableHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+}
+
+.actionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchIcon {
+  position: relative;
+  top: 1.8rem;
+  left: 0.7rem;
+  z-index: 2;
+  color: rgb(156, 156, 156);
+}
+
+.headerTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.deviceHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.deviceTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}

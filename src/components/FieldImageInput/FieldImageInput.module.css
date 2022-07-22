@@ -1,0 +1,12 @@
+.imageUploadContainer {
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*flex: 1;*/
+}
+
+.text {
+  font-family: OpenSans;
+  color: var(--marine);
+  font-weight: bold;
+  font-size: 12px;
+}

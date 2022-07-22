@@ -1,0 +1,19 @@
+.tableRow {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  word-wrap: break-word;
+  background-color: rgba(224, 228, 234);
+}
+
+.tableHeader {
+  display: none;
+}
+
+.smallHeader {
+  width: 100px !important;
+}
+
+.expandCol {
+  width: 50px !important;
+}

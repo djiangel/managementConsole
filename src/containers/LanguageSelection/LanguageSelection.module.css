@@ -1,0 +1,53 @@
+.container {
+  width: 95%;
+  max-width: 80%;
+  padding: 4.2rem 3.2rem;
+}
+
+.languageSettingHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.selectLanguageHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}
+
+.languagesContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: solid 1px var(--pale-grey);
+}
+
+.languageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.languageSelected {
+  font-size: 12px;
+  color: var(--aqua-marine);
+  font-family: OpenSans, sans-serif;
+}
+
+.languageUnselected {
+  font-size: 12px;
+  color: var(--marine);
+  font-family: OpenSans, sans-serif;
+}
+
+.languageUnselected:hover {
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}

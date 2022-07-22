@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>Icons/Folder</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Products" transform="translate(-97.000000, -301.000000)" stroke="#022950">
+            <g id="Folders" transform="translate(82.000000, 225.000000)">
+                <path d="M17.9565217,92 L31.6521739,92 C32.9481739,92 34,90.9389474 34,89.6315789 L34,80.1578947 L19.9130435,80.1578947 L19.9130435,90.0263158 C19.9130435,91.1165789 19.0365217,92 17.9565217,92 C16.8749565,92 16,91.1165789 16,90.0263158 L16,77 L21.4782609,77 L21.4782609,78.5789474 L31.6521739,78.5789474 L31.6521739,80.1578947" id="Icons/Folder"></path>
+            </g>
+        </g>
+    </g>
+</svg>

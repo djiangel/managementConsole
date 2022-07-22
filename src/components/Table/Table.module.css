@@ -1,0 +1,25 @@
+.tableContainer {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableContainer th {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 11px;
+  color: var(--marine);
+  padding: 8px 20px;
+  line-height: 40pt;
+  background-color: white;
+}
+
+.tableContainer td {
+  padding: 18px 20px;
+  color: var(--marine);
+  font-family: OpenSans, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.tableContainer tr:nth-child(odd) {
+  background-color: var(--pale-grey);
+}

@@ -1,0 +1,181 @@
+.container {
+  margin-left: 40px;
+}
+
+.folderList {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 26px;
+}
+
+.menuItem {
+}
+
+.menuItem:hover {
+  background-color: var(--pale-grey);
+  color: var(--marine);
+}
+
+.productNameColumn {
+  width: 40%;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 72px !important;
+  height: 72px !important;
+}
+
+.textUnselected {
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.textUnselected:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.addFolder {
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  font-size: 12px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.addFolder:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.textSelected {
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  font-weight: bold;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.productTable input {
+  border-radius: 16px;
+  background-color: rgb(244, 244, 244);
+  outline: none;
+  border: none;
+  height: 37px;
+  width: 250px;
+  padding-left: 2.5rem;
+  margin: 1rem 0 1rem -1rem;
+  flex: 5;
+}
+
+.actionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.addSymbol {
+  width: 18px;
+  height: 18px;
+  color: rgb(46, 46, 46);
+}
+
+.titleDiv {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(46, 46, 46);
+  text-align: center;
+}
+
+.productNameLink {
+  font-size: 18px;
+  color: rgb(46, 46, 46);
+  display: flex;
+  font-weight: bold;
+  flex-direction: row;
+}
+
+.productNameLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.folderNameLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.folderNameLink {
+  font-size: 16px;
+  color: rgb(46, 46, 46);
+  display: flex;
+  font-weight: bold;
+  flex-direction: row;
+}
+
+.rightMargin {
+  margin-right: 1rem;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.folderDiv {
+  margin-right: 1rem;
+  flex: 1;
+}
+
+.searchContainer {
+  display: flex;
+}
+
+.searchIcon {
+  position: relative;
+  top: 1.8rem;
+  left: 0.7rem;
+  z-index: 2;
+  color: rgb(156, 156, 156);
+}
+
+.addFolderIcon {
+  height: 20px;
+  margin-right: 7px;
+}
+
+.addFolderIcon:hover {
+  cursor: pointer;
+}
+
+.folderIcon {
+  height: 15px;
+  margin-right: 9px;
+}
+
+.folderIcon:hover {
+  cursor: pointer;
+}

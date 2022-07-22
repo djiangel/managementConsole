@@ -1,0 +1,25 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  min-width: 20%;
+  max-width: 50%;
+  max-height: 40%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5em;
+}

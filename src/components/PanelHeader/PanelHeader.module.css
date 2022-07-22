@@ -1,0 +1,32 @@
+.root {
+  background-color: var(--pale-grey);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 55px;
+  flex-grow: 8;
+  border-right: solid 1px;
+  border-color: rgb(224, 227, 233);
+}
+
+.panelName {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 14px;
+  color: var(--marine);
+  padding: 0 20px;
+}
+
+.minimizeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}

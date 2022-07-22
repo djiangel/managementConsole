@@ -1,0 +1,2 @@
+import CustomLexiconAddMappingContainer from './CustomLexiconAddMappingContainer';
+export default CustomLexiconAddMappingContainer;

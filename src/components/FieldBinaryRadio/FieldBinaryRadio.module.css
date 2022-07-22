@@ -1,0 +1,21 @@
+.actionContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+
+.field {
+  flex: 4;
+  width: 50%;
+}
+
+.fullWidth {
+  flex: 4;
+  width: 100%;
+}

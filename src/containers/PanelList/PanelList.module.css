@@ -1,0 +1,30 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.panelHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--aqua-marine);
+}
+
+.panelTitle {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 24px;
+  color: var(--marine);
+}
+
+.viewOtherPanelText {
+  font-family: OpenSans, sans-serif;
+  font-size: 10px;
+  color: var(--marine);
+  text-decoration: underline var(--marine);
+}

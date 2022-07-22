@@ -1,0 +1,43 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.fieldContainer {
+  align-items: flex-end;
+  justify-items: flex-end;
+  justify-content: flex-end;
+  width: 250px;
+  padding-inline: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #cccccc;
+  padding-top: 20px;
+}
+
+.footer button {
+  margin-left: 8px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}

@@ -1,0 +1,9 @@
+export const CAT_PRODUCT_LIST = 'Product List';
+export const CAT_CREATE_PRODUCT = 'Product Creation';
+export const CAT_PRODUCT = 'Product';
+export const CAT_EDIT_PRODUCT = 'Product Edit';
+export const CAT_PANEL_LIST = 'Panel List';
+export const CAT_CREATE_PANEL = 'Panel Creation';
+export const CAT_EDIT_PANEL = 'Panel Edit';
+export const CAT_REPORT_LIST = 'Report List';
+export const CAT_REQUEST_REPORT = 'Report Request';

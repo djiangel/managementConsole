@@ -1,0 +1,14 @@
+.container {
+  width: 95%;
+  max-width: 80%;
+  padding: 4.2rem 3.2rem;
+}
+
+.sectionContainer {
+  padding-bottom: 10px;
+  width: 30vw;
+}
+
+.inputSelect {
+  padding-top: 18px;
+}

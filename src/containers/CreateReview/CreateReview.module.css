@@ -1,0 +1,32 @@
+.fieldContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 340px;
+}
+
+.errorContainer {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: red;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.requiredErrorStar {
+  color: red;
+  font-weight: bold;
+  padding-left: 4px;
+}

@@ -1,0 +1,34 @@
+.container {
+  z-index: 2;
+  max-height: 385px;
+  border: 2px solid var(--marine);
+}
+
+.tableContainer {
+  max-height: 320px;
+  overflow: auto;
+}
+
+.tableContainer th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.tableHeader {
+  font-family: AlphaHeadlinePro-Bold, sans-serif;
+  font-size: 12px;
+  color: var(--marine);
+}
+
+.tableRow {
+  font-size: 12px;
+  font-family: OpenSans, sans-serif;
+  color: var(--marine);
+  word-wrap: break-word;
+}
+
+.tableRow:hover {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  cursor: pointer;
+}

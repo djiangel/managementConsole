@@ -1,0 +1,13 @@
+.container {
+  margin-top: 20px;
+}
+
+.fieldContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.field {
+  flex: 0.3;
+}
